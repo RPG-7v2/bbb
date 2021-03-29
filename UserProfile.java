@@ -27,4 +27,15 @@ public class UserProfile {
     public void setUserEMail(String userEMail){
         this.userEMail = userEMail;
     }
+    public UserProfile(byte vozrast, String imya, String po4ta){
+        this.userAge = vozrast;
+        this.userName = imya;
+        this.userEMail = po4ta;
+
+    }
+
+
+
+
 }
+
